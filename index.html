@@ -1,40 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Humans vs Machines Blog</title>
+    <meta charset="UTF-8">
+
+    <title>Build a Portfolio Site </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-  <!-- This was adapted from: http://blog.udacity.com/2016/03/humans-vs-machines-an-ai-odyssey-2.html -->
-  <!-- Format this text to match the mockup exactly! -->
-  <h1> Humans vs. Machines: An AI Odyssey </h1>
-    
-  <p> By <strong><em> Christopher Watkins </em></strong></p> 
-  
-  March 10, 2016
-  
- <h3> ***Breaking News: <em> AlphaGo has won the first two matches!*** </em> </h3> 
- <p>In this, the third in our series on the epic Go matches being played between AlphaGo (Google’s Artificial Intelligence software) and Lee Se-Dol (Current Go World Champion), we look at the history of Humans vs. Machines, and the innovations that have led us to this incredible moment in time.</em></p>
 
-  <img src="http://i2.wp.com/blog.udacity.com/wp-content/uploads/2016/03/56df2490a351d802222160.gif">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <nav class="navbar-header">
+                    <img class="top-img" src="https://d125fmws0bore1.cloudfront.net/assets/udacity_share-317a7f82552763598a5c91e1550b7cd83663ce02d6d475d703e25a873cd3b574.png" alt="Udacity logo" />
+                </nav>
+            </div>
+            <header class="col-md-6">
+                <h1 class="h-top">P r o j e c t</h1>
+                <h4 class="h-top">Build a Portfolio Site</h4>
+            </header>
 
- <p> For as long as humans have built things, we’ve wrestled with the implications of what we’ve built. In many cases, these philosophical and ethical wrestlings have made for great drama—think Frankenstein, or 2001: A Space Odyssey. Often, the hypothetical scenarios we envision come remarkably close to true, and the discoveries we’ve made in the fields of Artificial Intelligence and Machine Learning make clear that a “computer with a mind of its own” is <s>going to take over the world </s> not such a fantastic thing to imagine any longer. </p>
+        </div>
 
-  <h2>The Triumph Of Deep Blue</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <hr />
+            </div>
+        </div>
 
-   <p> Perhaps this is why we are so captivated by human vs. machine competitions, because the idea of being overcome by that which we’ve created speaks to something very deep within our collective consciousness. When IBM’s Deep Blue faced off against Garry Kasparov<sup>1</sup>, the event resulted in more than <a href="http://www-03.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/"> three billion impressions </a>around the world, and when IBM’s later creation Watson challenged the champions on Jeopardy, millions of viewers were glued to the proceedings. </p>
+        <section class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="http://lorempixel.com/1200/400/sports/2" alt="main code image">
+            </div>
+        </section>
 
-  <h2> DeepMind’s AlphaGo </h2>
-
-   <p>Taking place right now, there is an event that, while not likely to scale the same media heights, may in fact have far greater implications when it comes to the future of “intelligent” machines. On March 9, in Seoul, South Korea, a computing system know as AlphoGo (built by researchers at DeepMind—a Google Artificial Intelligence lab) began <a href="http://venturebeat.com/2016/02/04/youtube-will-livestream-googles-ai-playing-go-superstar-lee-sedol-in-march"> a five-game match </a> against Lee Se-dol, one of the very best players in the world at the ancient game of Go. </p>
-  
-  <p> Why is this so significant?  </p>
-  
-   <p> Here is how the DeepMind team explained it in their paper <a href="http://airesearch.com/wp-content/uploads/2016/01/deepmind-mastering-go.pdf"> Mastering the Game of Go with Deep Neural Networks and Tree Search </a>  </p>
-   <p><em> The game of Go has long been viewed as the most challenging of classic games for artificial intelligence due to its enormous search space and the difficulty of evaluating board positions and moves.  </p></em>
-   <p> Put another way, winning at Go is a kind of Holy Grail for those who strive to create machines that can “think” on their own, because success at this uniquely complex game seems to require something more than just skill, knowledge, and experience. It requires intuition. Feel. Style. Characteristics we associate with humans, not with machines. </p>
-  <hr>
-  
-  <sup>1</sup> Garry Kasparov is a Russian chess Grandmaster and former World Chess Champion
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="featuerd"> Featured Work  </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail text-center">
+                    <footer class="footer">
+                        <img src="http://lorempixel.com/600/400/abstract/1" class="img-responsive" alt="APPIFY">
+                        <h2>APPIFY</h2>
+                        <P> <a href="https://github.com/udacity/Appify/" target="_blank">https://github.com/udacity/Appify/</a>
+                        </P>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail text-center">
+                    <footer class="footer">
+                        <img src="http://lorempixel.com/600/400/abstract/2" class="img-responsive" alt="SUNFLOWER">
+                        <h2>SUNFLOWER</h2>
+                        <P> <a href="https://github.com/udacity/Sunflower/" target="_blank">https://github.com/udacity/Sunflower/</a>
+                        </P>
+                    </footer>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center">
+                <div class="thumbnail text-center">
+                    <footer class="footer">
+                        <img src="http://lorempixel.com/600/400/abstract/3" class="img-responsive" alt="BOKEH">
+                        <h2>BOKEH</h2>
+                        <P> <a href="https://github.com/udacity/Bokeh/" target="_blank">https://github.com/udacity/Bokeh/</a>
+                        </P>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
